@@ -46,8 +46,8 @@ class Player {
     
 
     static updatePlayerAtEnd(rank){
-        database.ref("").update({
-            playerAtEnd : 0
+        database.ref("/").update({
+            playerAtEnd : rank
         })
     }
 
